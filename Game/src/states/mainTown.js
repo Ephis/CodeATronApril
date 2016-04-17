@@ -36,7 +36,8 @@ mainTown.prototype = {
         
         background.resizeWorld();
         
-        mapGroup.scale.set(3);
+        //mapGroup.scale.set(3);
+        
         
         //Setting up the player
         var playerSprite = this.game.add.sprite(100, 100, 'David');
@@ -53,7 +54,7 @@ mainTown.prototype = {
         
         //Player physics and scaling
         player.sprite.body.collideWorldBounds = true;
-        player.sprite.scale.set(1.5);
+        player.sprite.scale.set(5);
         
         //Setting up the camera
         this.game.camera.follow(player.sprite);

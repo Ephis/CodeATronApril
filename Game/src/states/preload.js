@@ -32,11 +32,10 @@ preload.prototype = {
         //Loading assets for the player
             //Load images
         this.game.load.spritesheet('David', 'assets/player/david/David_Spritesheet.png', 64, 64);
-            //Load animation spriteSheets
         
         //Loading assets for the enermies
             //Loading images
-        this.game.load.image('JournalistFront', 'assets/enermy/journalist/Journalist_front.png')
+        this.game.load.image('JournalistFront', 'assets/enermy/journalist/Journalist_front.png');
         
         
     },

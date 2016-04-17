@@ -18,7 +18,6 @@ function Player(sprite) {
     
     self.moveRight = function() {
         player.sprite.body.velocity.x = self.walkSpeed;
-        
         if(self.sprite.animations.name != self.walkRightAnimation){
             self.sprite.frame = 12;
             self.sprite.animations.play(self.walkRightAnimation, 6, true);
